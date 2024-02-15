@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://images.hdqwalls.com/download/graph-web-abstract-4k-hn-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: rgba(9, 14, 24, 0.9);
+  padding-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 50px;
+  height: 70%;
+  box-shadow: 0 4px 10px rgba(214, 205, 205, 0.3);
+  margin-top: -5px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: rgb(219, 193, 193);
+}
+
+.color-picker-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="color"] {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Adjust the value to change the level of rounding */
+  padding: 4px; /* Adjust the padding as needed */
+  outline: none;
+  cursor: pointer;
+  background-color: #2eeb3e;
+  box-shadow: 0 4px 6px;
+}
+
+label {
+  margin-right: 10px;
+  color: rgb(219, 193, 193);
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.input-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 60px;
+  background-color: #2eeb3e;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #01061bfd;
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgb(4, 0, 15);
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0b2641;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(250, 246, 246, 0.37);
+}
+
+button:hover {
+  background-color: #0056b3;
+}

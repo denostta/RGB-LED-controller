@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const blue = parseInt(blueInput.value);
     const rgbValues = { r: red, g: green, b: blue };
 
-    fetch("http://localhost:4000/send-color", {
+    fetch("https://rgb-led-controller.onrender.com/send-color", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
